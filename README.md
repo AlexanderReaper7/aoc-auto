@@ -4,6 +4,8 @@
 
 This is a build script that generates files that automatically generates rust files that imports you solutions for each of the year/day/part according to a predetermined project structure.
 
+You can see how I use this at https://github.com/AlexanderReaper7/advent-of-code-rs
+
 ## Usage
 
 ### Installation
