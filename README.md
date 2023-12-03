@@ -88,3 +88,8 @@ fn main() {
     println!("{}", function(input));
 }
 ```
+
+## TODO
+
+- CLI Tool to create template file into the selected year and day.
+  - Also automatically fetch the day´s title and URL from the AOC website and paste it into the files description.
