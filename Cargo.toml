@@ -2,8 +2,10 @@
 name = "aoc-auto"
 version = "0.1.0"
 edition = "2021"
-authors = ["Alexander Öberg"]
-
+authors = ["Alexander Öberg <AlexanderReaper7@noreply.users.github.com"]
+license = "MIT"
+description = "Automatically imports your solutions to Advent of Code challenges for easy running."
+repository = "https://github.com/AlexanderReaper7/aoc-auto"
 # See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
 
 [dependencies]
