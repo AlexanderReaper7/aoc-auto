@@ -1,14 +1,18 @@
 [package]
 name = "aoc-auto"
-version = "0.1.0"
+version = "0.2.0"
 edition = "2021"
 authors = ["Alexander Öberg <AlexanderReaper7@noreply.users.github.com"]
 license = "MIT"
 description = "Automatically imports your solutions to Advent of Code challenges for easy running."
 repository = "https://github.com/AlexanderReaper7/aoc-auto"
 # See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
+[lib]
+path = "src/lib.rs"
 
 [dependencies]
-quote = "1.0.33"
+quote = "1.0"
 syn = { version = "2", features = ["full", "parsing"] }
-prettyplease = "0.2.15"
+prettyplease = "0.2.32"
+reqwest = { version = "0.12.15", features = ["blocking"] }
+scraper = "0.23.1"
